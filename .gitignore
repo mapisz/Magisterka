@@ -1,0 +1,15 @@
+# Ignore the virtual environment
+.venv/
+.env
+
+# Ignore all data files (csv, json, sqlite, parquet, etc.)
+*.csv
+*.json
+*.parquet
+*.db
+*.sqlite
+data/
+
+# Ignore Jupyter Notebook checkpoints and autosaves
+.ipynb_checkpoints/
+.virtual_documents/
