@@ -10,7 +10,7 @@ import aiohttp
 START_2025 = 1735689600  # Jan 1, 2025
 END_2025 = 1767225599    # Dec 31, 2025
 
-REVIEW_FOLDER = '2025_reviews'
+REVIEW_FOLDER = 'data/2025_reviews'
 os.makedirs(REVIEW_FOLDER, exist_ok=True)
 
 # Limit concurrent games being processed at the same time to prevent 429 errors

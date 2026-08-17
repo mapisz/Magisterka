@@ -2,13 +2,15 @@
 .venv/
 .env
 
-# Ignore all data files (csv, json, sqlite, parquet, etc.)
-*.csv
+# Ignore pycache, data, etc. 
 *.json
 *.parquet
 *.db
 *.sqlite
-data/
+*.pyc
+__pycache__/
+*.csv
+*.zst
 
 # Ignore Jupyter Notebook checkpoints and autosaves
 .ipynb_checkpoints/
